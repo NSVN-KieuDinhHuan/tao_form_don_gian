@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Sở Thích của bạn</title>
+</head>
+<body>
+
+<div style="position:absolute;left:50px;top: 50px;right: 50px;bottom: 200px">
+<form style="border: 10px solid powderblue;background-color: #ffffff; ">
+<h2 style="background-color: coral;color: white;text-align: center" >SỞ THÍCH CỦA BẠN</h2>
+<!-- bang ho ten và email-->
+<table style="text-align: left;">
+  <tr>
+    <td>
+      <p>Họ Và Tên </p>
+    </td>
+    <td>
+      <input id="hoten" name="Hoten" type="text" size="50">
+    </td>
+  <tr>
+  <tr>
+    <td>
+      <label for="email">Email </label>
+    </td>
+    <td>
+      <input id="email" name="email" type="text">
+    </td>
+  </tr>
+  </table>
+
+<!-- bang sở thích-->
+  <table style="text-align: left;" id="table_sothich">
+   <tr>
+    <td><p> Sở Thích</p></td>
+    <td>
+      <input type="checkbox"  id="thethao" name="Thethao" >
+      <label for="Thethao"> Thể Thao</label>
+    </td>
+    <td>
+      <input type="checkbox" id="amnhac";name="amnhac">
+      <label for="amnhac"> Âm nhạc</label>
+    </td>
+    <td>
+      <input type="checkbox" id="docsach";name="docsach">
+      <label for="docsach"> Đọc sách</label>
+    </td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>
+        <input type="checkbox"  id="luotweb" name="luotweb" >
+        <label for="luotweb"> Lướt Web</label>
+      </td>
+      <td>
+        <input type="checkbox"  id="choigame" name="choigame" >
+        <label for="choigame"> Chơi game</label>
+      </td>
+      <td>
+        <input type="checkbox"  id="dienanh" name="dienanh" >
+        <label for="dienanh"> Điện ảnh</label>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <input type="checkbox"  id="dulich" name="dulich" >
+        <label for="dulich"> Du lịch</label>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <input type="submit" value="Gửi thông tin">
+      </td>
+      <td><input type="submit" value="Nhập Lại"></td>
+    </tr>
+</table>
+</form>
+</div>
+</body>
+</html>
